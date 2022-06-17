@@ -1,0 +1,33 @@
+{
+  "name": "co2-calculator-cli",
+  "version": "1.0.0",
+  "description": "calculates the amount of co2 usage",
+  "main": "dist/cli.js",
+  "scripts": {
+    "bootstrap": "npm install && npm run build && npm link",
+    "build": "./node_modules/.bin/tsc -p .",
+    "start:build": "tsc -w",
+    "test": "jest"
+  },
+  "bin": {
+    "co2-calculator": "dist/cli.js"
+  },
+  "author": "romanovsky igor",
+  "license": "ISC",
+  "dependencies": {
+    "yargs": "^17.0.2"
+  },
+  "devDependencies": {
+    "@types/yargs": "^17.0.2",
+    "@types/jest": "^27.0.1",
+    "@types/node": "^16.7.10",
+    "@types/source-map-support": "^0.5.4",
+    "jest": "^27.1.0",
+    "onchange": "^7.1.0",
+    "serve": "^12.0.0",
+    "source-map-support": "^0.5.19",
+    "ts-jest": "^27.0.5",
+    "ts-node": "^10.2.1",
+    "typescript": "^4.4.2"
+  }
+}

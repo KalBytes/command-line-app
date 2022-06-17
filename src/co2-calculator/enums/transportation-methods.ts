@@ -1,0 +1,16 @@
+export enum TransportationMethods {
+  "small-diesel-car",
+  "small-petrol-car",
+  "small-plugin-hybrid-car",
+  "small-electric-car",
+  "medium-diesel-car", 
+  "medium-petrol-car", 
+  "medium-plugin-hybrid-car",
+  "medium-electric-car", 
+  "large-diesel-car",
+  "large-petrol-car",
+  "large-plugin-hybrid-car", 
+  "large-electric-car",
+  "bus",
+  "train", 
+}
