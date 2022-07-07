@@ -1,6 +1,7 @@
 {
   "name": "co2-calculator-cli",
   "version": "1.0.0",
+  "author": "Igor Romanovsky",
   "description": "calculates the amount of co2 usage",
   "main": "dist/cli.js",
   "scripts": {
@@ -12,7 +13,6 @@
   "bin": {
     "co2-calculator": "dist/cli.js"
   },
-  "author": "romanovsky igor",
   "license": "ISC",
   "dependencies": {
     "yargs": "^17.0.2"

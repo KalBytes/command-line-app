@@ -1,6 +1,9 @@
+# <a href='https://www.kalbytes.de/'><img src='https://www.kalbytes.de/static/logo-87a2a41907a1690d5870fed0f7f22944.svg' height='80' alt='Kalbytes Logo' aria-label='https://www.kalbytes.de' /></a>
+
+
 # CO2Calculator
 
-## Introduction
+## Description
 
 A basic CLI application that allows you to calculate the amount of used CO2 per journey
 written in NodeJS & TypeScript
